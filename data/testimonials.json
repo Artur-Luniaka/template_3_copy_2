@@ -1,0 +1,34 @@
+{
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "title": "Flower Arrangement Artist",
+      "comment": "Magical experience! The petal physics are wonderfully lifelike and the garden challenges are so creative. I've spent hours designing and still find new floral combinations."
+    },
+    {
+      "name": "Michael Chen",
+      "title": "Botany Instructor",
+      "comment": "As a plant science teacher, I'm amazed by the accurate floral behavior. This is a brilliant way to learn about flower properties while creating art."
+    },
+    {
+      "name": "Emma Rodriguez",
+      "title": "Creative Hobbyist",
+      "comment": "Perfect for relaxing creativity breaks. The magnetic controls feel natural and the floral visuals are stunning. Absolutely delightful!"
+    },
+    {
+      "name": "David Thompson",
+      "title": "Floral Competition Judge",
+      "comment": "The festival mode is exceptional! Each garden presents unique floral puzzles that test your design skills in beautiful ways."
+    },
+    {
+      "name": "Lisa Park",
+      "title": "Mindfulness Coach",
+      "comment": "Wonderful for stress relief and focus! Creating floral patterns is so meditative yet engaging. It's therapy through nature's beauty."
+    },
+    {
+      "name": "James Wilson",
+      "title": "Master Gardener",
+      "comment": "This captures the essence of floral artistry. The attention to different petal types and their magnetic responses is extraordinary."
+    }
+  ]
+}

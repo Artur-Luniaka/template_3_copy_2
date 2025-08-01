@@ -1,0 +1,1223 @@
+/* Mobile-First Responsive Design */
+
+/* Base Mobile Styles (360px and up) */
+@media screen and (max-width: 767px) {
+  .court-center {
+    padding: 0 15px;
+  }
+
+  .ace-title {
+    font-size: 2.5rem;
+  }
+
+  .serve-slogan {
+    font-size: 1.2rem;
+  }
+
+  .match-heading {
+    font-size: 2rem;
+  }
+
+  .rally-arena.hero-zone {
+    padding: 2rem 0;
+  }
+
+  .news-arena {
+    padding: 3rem 0;
+  }
+
+  .hero-card {
+    padding: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+  }
+
+  .club-features,
+  .how-to-play,
+  .player-voices,
+  .court-types,
+  .equipment-upgrades,
+  .match-highlights,
+  .tennis-diaries,
+  .contact-info,
+  .contact-form,
+  .contact-section,
+  .map-section,
+  .legal-content {
+    padding: 2rem 0;
+  }
+
+  .features-grid,
+  .courts-grid,
+  .equipment-grid,
+  .updates-grid,
+  .diaries-grid,
+  .contact-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 1.5rem;
+  }
+
+  .testimonials-hero-card {
+    padding: 2rem;
+  }
+
+  .feature-card,
+  .testimonial-card,
+  .court-card,
+  .equipment-card,
+  .update-card,
+  .diary-card,
+  .contact-card,
+  .contact-info-block,
+  .contact-form-block {
+    min-width: auto;
+    max-width: none;
+    padding: 1.2rem;
+  }
+
+  .feature-card .feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .feature-card .feature-title {
+    font-size: 1.3rem;
+  }
+
+  .feature-card .feature-description {
+    font-size: 0.9rem;
+  }
+
+  /* Mobile styles for update cards */
+  .update-card {
+    padding: 1rem;
+  }
+
+  .update-card .update-header {
+    padding: 0.6rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .update-card .update-title {
+    font-size: 1.1rem;
+  }
+
+  .update-card .update-date {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .update-card .update-description {
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .update-card .update-details {
+    padding: 0.8rem;
+  }
+
+  .update-card .update-details h4 {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .update-card .update-details li {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Diary Card Mobile Styles */
+  .diary-card .diary-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .diary-card .diary-title {
+    font-size: 1.1rem;
+  }
+
+  .diary-card .diary-date {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+    margin-left: 0;
+  }
+
+  .diary-card .diary-content {
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+
+  .diary-card .diary-author {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .diary-card .author-name {
+    font-size: 0.8rem;
+    padding-left: 1.2rem;
+  }
+
+  /* Rules Section Mobile */
+  #rules-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .rules-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .rules-section li {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .feedback-form {
+    padding: 1.5rem;
+  }
+
+  /* Contact Section Mobile Styles */
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-info-block,
+  .contact-form-block {
+    padding: 1.5rem;
+  }
+
+  .contact-info-block .match-heading,
+  .contact-form-block .match-heading {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .contact-info-block .match-heading::after,
+  .contact-form-block .match-heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  .contact-icon {
+    align-self: center;
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .contact-label {
+    font-size: 1rem;
+  }
+
+  .contact-value {
+    font-size: 0.9rem;
+  }
+
+  .footer-footer-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-footer-section {
+    min-width: auto;
+  }
+
+  .footer-footer-links {
+    flex-direction: column;
+  }
+
+  .footer-contact-info {
+    flex-direction: column;
+  }
+
+  /* Mobile Navigation */
+  .navigation-arena {
+    display: flex;
+  }
+
+  .nav-menu {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Tablet Styles (768px and up) */
+@media screen and (min-width: 768px) {
+  .court-center {
+    padding: 0 30px;
+  }
+
+  .ace-title {
+    font-size: 3rem;
+  }
+
+  .serve-slogan {
+    font-size: 1.3rem;
+  }
+
+  .match-heading {
+    font-size: 2.2rem;
+  }
+
+  .rally-arena.hero-zone {
+    padding: 3rem 0;
+  }
+
+  .news-arena {
+    padding: 4rem 0;
+  }
+
+  .hero-card {
+    padding: 2.5rem;
+    margin-top: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .hero-text {
+    font-size: 1.05rem;
+  }
+
+  .club-features,
+  .how-to-play,
+  .player-voices,
+  .court-types,
+  .equipment-upgrades,
+  .match-highlights,
+  .tennis-diaries,
+  .contact-info,
+  .contact-form,
+  .contact-section,
+  .map-section,
+  .legal-content {
+    padding: 3rem 0;
+  }
+
+  .features-grid,
+  .equipment-grid,
+  .updates-grid,
+  .diaries-grid,
+  .contact-grid {
+    gap: 1.5rem;
+  }
+
+  .courts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    gap: 2rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    gap: 2rem;
+  }
+
+  .testimonials-hero-card {
+    padding: 2.5rem;
+  }
+
+  .feature-card,
+  .testimonial-card,
+  .court-card,
+  .equipment-card,
+  .update-card,
+  .diary-card,
+  .contact-card,
+  .contact-info-block {
+    min-width: 280px;
+    max-width: 350px;
+  }
+
+  .feature-card .feature-icon {
+    font-size: 2.8rem;
+  }
+
+  .feature-card .feature-title {
+    font-size: 1.4rem;
+  }
+
+  .feature-card .feature-description {
+    font-size: 0.95rem;
+  }
+
+  /* Contact Section Tablet Styles */
+  .contact-wrapper {
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-info-block,
+  .contact-form-block {
+    padding: 2rem;
+  }
+
+  .contact-info-block .match-heading,
+  .contact-form-block .match-heading {
+    font-size: 1.9rem;
+  }
+
+  .contact-item {
+    padding: 1.2rem;
+  }
+
+  .contact-icon {
+    width: 38px;
+    height: 38px;
+    font-size: 1.1rem;
+  }
+
+  .contact-label {
+    font-size: 1.05rem;
+  }
+
+  .contact-value {
+    font-size: 0.95rem;
+  }
+
+  /* Tablet styles for update cards */
+  .update-card {
+    padding: 1.3rem;
+  }
+
+  .update-card .update-header {
+    padding: 0.7rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .update-card .update-title {
+    font-size: 1.15rem;
+  }
+
+  .update-card .update-date {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .update-card .update-description {
+    font-size: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .update-card .update-details {
+    padding: 0.9rem;
+  }
+
+  .update-card .update-details h4 {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .update-card .update-details li {
+    font-size: 0.85rem;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  /* Diary Card Tablet Styles */
+  .diary-card .diary-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .diary-card .diary-title {
+    font-size: 1.2rem;
+  }
+
+  .diary-card .diary-date {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.7rem;
+    margin-left: 0.5rem;
+  }
+
+  .diary-card .diary-content {
+    font-size: 0.9rem;
+    padding: 1.1rem;
+  }
+
+  .diary-card .diary-author {
+    padding: 0.7rem 0.9rem;
+  }
+
+  .diary-card .author-name {
+    font-size: 0.85rem;
+    padding-left: 1.3rem;
+  }
+
+  /* Rules Section Tablet */
+  #rules-container {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem;
+  }
+
+  .rules-section h3 {
+    font-size: 1.6rem;
+  }
+
+  .rules-section li {
+    font-size: 0.95rem;
+    padding: 0.9rem 1.3rem;
+  }
+
+  .footer-footer-content {
+    gap: 1.5rem;
+  }
+
+  .footer-footer-section {
+    min-width: 200px;
+  }
+
+  .footer-footer-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .footer-contact-info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-contact-item {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  /* Navigation on tablet */
+  .navigation-arena {
+    display: flex;
+  }
+
+  .nav-menu {
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Desktop Styles (1280px and up) */
+@media screen and (min-width: 1280px) {
+  .court-center {
+    padding: 0 40px;
+  }
+
+  .ace-title {
+    font-size: 3.5rem;
+  }
+
+  .serve-slogan {
+    font-size: 1.5rem;
+  }
+
+  .match-heading {
+    font-size: 2.5rem;
+  }
+
+  .rally-arena.hero-zone {
+    padding: 4rem 0;
+  }
+
+  .news-arena {
+    padding: 5rem 0;
+  }
+
+  .hero-card {
+    padding: 3rem;
+    margin-top: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    font-size: 1.1rem;
+  }
+
+  .club-features,
+  .how-to-play,
+  .player-voices,
+  .court-types,
+  .equipment-upgrades,
+  .match-highlights,
+  .tennis-diaries,
+  .contact-info,
+  .contact-form,
+  .map-section,
+  .legal-content {
+    padding: 4rem 0;
+  }
+
+  .features-grid,
+  .equipment-grid,
+  .updates-grid,
+  .diaries-grid,
+  .contact-grid {
+    gap: 2rem;
+  }
+
+  .courts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    gap: 2.5rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    gap: 2.5rem;
+  }
+
+  .testimonials-hero-card {
+    padding: 3rem;
+  }
+
+  .feature-card,
+  .testimonial-card,
+  .court-card,
+  .equipment-card,
+  .update-card,
+  .diary-card,
+  .contact-card {
+    min-width: 300px;
+    max-width: 400px;
+    padding: 2rem;
+  }
+
+  .feature-card .feature-icon {
+    font-size: 3rem;
+  }
+
+  .feature-card .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .feature-card .feature-description {
+    font-size: 1rem;
+  }
+
+  /* Desktop styles for update cards */
+  .update-card {
+    padding: 1.5rem;
+  }
+
+  .update-card .update-header {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .update-card .update-title {
+    font-size: 1.2rem;
+  }
+
+  .update-card .update-date {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .update-card .update-description {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .update-card .update-details {
+    padding: 1rem;
+  }
+
+  .update-card .update-details h4 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .update-card .update-details li {
+    font-size: 0.85rem;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  /* Rules Section Desktop */
+  #rules-container {
+    flex-direction: row;
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  .rules-section h3 {
+    font-size: 1.8rem;
+  }
+
+  .rules-section li {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .feedback-form {
+    padding: 2rem;
+  }
+
+  .footer-footer-content {
+    gap: 2rem;
+  }
+
+  .footer-footer-section {
+    min-width: 250px;
+  }
+
+  .footer-footer-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .footer-contact-info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-contact-item {
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+
+  /* Navigation on desktop */
+  .nav-menu {
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Enhanced hover effects for desktop */
+  .feature-card:hover,
+  .testimonial-card:hover,
+  .court-card:hover,
+  .equipment-card:hover,
+  .update-card:hover,
+  .diary-card:hover,
+  .contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px var(--player-shadow);
+  }
+}
+
+/* Large Desktop Styles (1600px and up) */
+@media screen and (min-width: 1600px) {
+  .court-center {
+    max-width: 1400px;
+    padding: 0 50px;
+  }
+
+  .ace-title {
+    font-size: 4rem;
+  }
+
+  .serve-slogan {
+    font-size: 1.7rem;
+  }
+
+  .match-heading {
+    font-size: 3rem;
+  }
+
+  .rally-arena.hero-zone {
+    padding: 5rem 0;
+  }
+
+  .news-arena {
+    padding: 6rem 0;
+  }
+
+  .hero-card {
+    padding: 4rem;
+    margin-top: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
+  .club-features,
+  .how-to-play,
+  .player-voices,
+  .court-types,
+  .equipment-upgrades,
+  .match-highlights,
+  .tennis-diaries,
+  .contact-info,
+  .contact-form,
+  .map-section,
+  .legal-content {
+    padding: 5rem 0;
+  }
+
+  .features-grid,
+  .equipment-grid,
+  .updates-grid,
+  .diaries-grid,
+  .contact-grid {
+    gap: 2.5rem;
+  }
+
+  .courts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    gap: 3rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    gap: 3rem;
+  }
+
+  /* Large Desktop styles for update cards */
+  .update-card {
+    padding: 1.8rem;
+  }
+
+  .update-card .update-header {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .update-card .update-title {
+    font-size: 1.3rem;
+  }
+
+  .update-card .update-date {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .update-card .update-description {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .update-card .update-details {
+    padding: 1.2rem;
+  }
+
+  .update-card .update-details h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .update-card .update-details li {
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  /* Diary Card Desktop Styles */
+  .diary-card .diary-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  .diary-card .diary-title {
+    font-size: 1.3rem;
+  }
+
+  .diary-card .diary-date {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+    margin-left: 0.8rem;
+  }
+
+  .diary-card .diary-content {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+  }
+
+  .diary-card .diary-author {
+    padding: 0.8rem 1rem;
+  }
+
+  .diary-card .author-name {
+    font-size: 0.9rem;
+    padding-left: 1.5rem;
+  }
+
+  /* Diary Card Large Desktop Styles */
+  .diary-card .diary-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .diary-card .diary-title {
+    font-size: 1.4rem;
+  }
+
+  .diary-card .diary-date {
+    font-size: 0.9rem;
+    padding: 0.45rem 0.9rem;
+    margin-left: 1rem;
+  }
+
+  .diary-card .diary-content {
+    font-size: 1rem;
+    padding: 1.3rem;
+  }
+
+  .diary-card .diary-author {
+    padding: 0.9rem 1.2rem;
+  }
+
+  .diary-card .author-name {
+    font-size: 0.95rem;
+    padding-left: 1.6rem;
+  }
+
+  .testimonials-hero-card {
+    padding: 3.5rem;
+  }
+
+  .feature-card,
+  .testimonial-card,
+  .court-card,
+  .equipment-card,
+  .update-card,
+  .diary-card,
+  .contact-card {
+    min-width: 350px;
+    max-width: 450px;
+    padding: 2.5rem;
+  }
+
+  .feature-card .feature-icon {
+    font-size: 3.5rem;
+  }
+
+  .feature-card .feature-title {
+    font-size: 1.7rem;
+  }
+
+  .feature-card .feature-description {
+    font-size: 1.1rem;
+  }
+
+  /* Rules Section Large Desktop */
+  #rules-container {
+    flex-direction: row;
+    gap: 4rem;
+    padding: 4rem;
+  }
+
+  .rules-section h3 {
+    font-size: 2rem;
+  }
+
+  .rules-section li {
+    font-size: 1.1rem;
+    padding: 1.2rem 1.8rem;
+  }
+
+  .feedback-form {
+    padding: 2.5rem;
+    max-width: 700px;
+  }
+
+  .footer-footer-content {
+    gap: 2.5rem;
+  }
+
+  .footer-footer-section {
+    min-width: 300px;
+  }
+
+  .footer-footer-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .footer-contact-info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-contact-item {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  /* Navigation on large desktop */
+  .nav-menu {
+    gap: 2.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Landscape Mobile Styles */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .rally-arena.hero-zone {
+    padding: 1.5rem 0;
+  }
+
+  .news-arena {
+    padding: 2rem 0;
+  }
+
+  .ace-title {
+    font-size: 2rem;
+  }
+
+  .serve-slogan {
+    font-size: 1rem;
+  }
+
+  .hero-card {
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .hero-text {
+    font-size: 0.9rem;
+  }
+
+  .club-features,
+  .how-to-play,
+  .player-voices,
+  .court-types,
+  .equipment-upgrades,
+  .match-highlights,
+  .tennis-diaries,
+  .contact-info,
+  .contact-form,
+  .map-section,
+  .legal-content {
+    padding: 1.5rem 0;
+  }
+
+  .feature-card .feature-icon {
+    font-size: 2rem;
+  }
+
+  .feature-card .feature-title {
+    font-size: 1.2rem;
+  }
+
+  .feature-card .feature-description {
+    font-size: 0.85rem;
+  }
+
+  /* Landscape mobile styles for update cards */
+  .update-card {
+    padding: 0.8rem;
+  }
+
+  .update-card .update-header {
+    padding: 0.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .update-card .update-title {
+    font-size: 1rem;
+  }
+
+  .update-card .update-date {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.4rem;
+  }
+
+  .update-card .update-description {
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .update-card .update-details {
+    padding: 0.6rem;
+  }
+
+  .update-card .update-details h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .update-card .update-details li {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 0.4rem;
+  }
+
+  /* Rules Section Landscape */
+  #rules-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .rules-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .rules-section li {
+    font-size: 0.8rem;
+    padding: 0.7rem 1rem;
+  }
+}
+
+/* High DPI Displays */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi) {
+  .hero-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/cort-hero.jpg");
+  }
+}
+
+/* Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  .ace-title {
+    animation: none;
+  }
+
+  .feature-card,
+  .testimonial-card,
+  .court-card,
+  .equipment-card,
+  .update-card,
+  .diary-card,
+  .contact-card {
+    transition: none;
+  }
+
+  .nav-link,
+  .mobile-nav-link,
+  .footer-link,
+  .contact-link,
+  .social-link {
+    transition: none;
+  }
+
+  .rules-section li {
+    transition: none;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .match-header,
+  .footer-match-footer {
+    display: none !important;
+  }
+
+  .rally-arena.hero-zone {
+    background: white !important;
+    color: black !important;
+    padding: 1rem 0;
+  }
+
+  .ace-title {
+    color: black !important;
+    animation: none !important;
+  }
+
+  .serve-slogan {
+    color: black !important;
+  }
+
+  .match-heading {
+    color: black !important;
+  }
+
+  .feature-card,
+  .testimonial-card,
+  .court-card,
+  .equipment-card,
+  .update-card,
+  .diary-card,
+  .contact-card {
+    box-shadow: none !important;
+    border: 1px solid var(--print-gray) !important;
+  }
+
+  .feature-card {
+    background: white !important;
+    color: black !important;
+  }
+
+  .feature-card .feature-title {
+    color: black !important;
+  }
+
+  .feature-card .feature-description {
+    color: black !important;
+  }
+
+  .hero-card {
+    background: white !important;
+    color: black !important;
+  }
+
+  .hero-subtitle {
+    color: black !important;
+  }
+
+  .hero-text {
+    color: black !important;
+  }
+
+  #rules-container {
+    background: white !important;
+    color: black !important;
+  }
+
+  .rules-section h3 {
+    color: black !important;
+  }
+
+  .rules-section li {
+    background: var(--print-light-gray) !important;
+    color: black !important;
+    border-left-color: var(--print-dark) !important;
+  }
+}

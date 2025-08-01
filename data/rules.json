@@ -1,0 +1,23 @@
+{
+  "controls": [
+    "Use arrow keys or WASD to guide the magnetic field",
+    "Press SPACE to activate petal attraction",
+    "Hold SHIFT for stronger magnetic pulses",
+    "Press C for delicate precision mode",
+    "Use mouse to direct flower arrangements"
+  ],
+  "rules": [
+    "Flowers must form complete connected patterns",
+    "You lose energy if petals fall outside the garden",
+    "Colliding petals reduce your harmony score",
+    "First to complete 4 floral designs with 2-pattern lead wins",
+    "Best of 3 or 5 gardens wins the championship"
+  ],
+  "strategies": [
+    "Alternate between strong and gentle magnetic fields",
+    "Use garden edges to create cascading effects",
+    "Conserve magnetic energy for complex arrangements",
+    "Observe the natural drift patterns of different flowers",
+    "Master your starting pulse - it sets your rhythm"
+  ]
+}

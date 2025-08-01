@@ -1,0 +1,48 @@
+{
+  "courts": [
+    {
+      "name": "Wildflower Field",
+      "description": "Expansive meadow where petals float gently on the breeze. Perfect for wide, sweeping magnetic patterns with delicate flowers.",
+      "features": [
+        "Light, airy petal movement",
+        "Gentle floating trajectories",
+        "Challenging in strong winds",
+        "Requires subtle magnetic control",
+        "Rewards creative, flowing patterns"
+      ]
+    },
+    {
+      "name": "Zen Garden",
+      "description": "Meticulously arranged space where each blossom responds to precise magnetic touches. Ideal for meditative, symmetrical designs.",
+      "features": [
+        "Slow, deliberate petal motion",
+        "Perfect geometric responsiveness",
+        "Demands absolute precision",
+        "Calming, therapeutic experience",
+        "Master's canvas for perfection"
+      ]
+    },
+    {
+      "name": "Rainforest Canopy",
+      "description": "Lush vertical garden with exotic flowers that cascade downward. Magnetic forces create stunning waterfall effects.",
+      "features": [
+        "Dynamic vertical arrangements",
+        "Tropical petal varieties",
+        "Creates dramatic falling patterns",
+        "Humidity affects magnetism",
+        "Nature's own art gallery"
+      ]
+    },
+    {
+      "name": "Crystal Greenhouse",
+      "description": "Controlled environment where flowers respond with pixel-perfect accuracy to magnetic inputs. The ultimate precision playground.",
+      "features": [
+        "Perfect climate consistency",
+        "Zero interference environment",
+        "Predictable magnetic responses",
+        "Ideal for complex algorithms",
+        "Competition-grade conditions"
+      ]
+    }
+  ]
+}

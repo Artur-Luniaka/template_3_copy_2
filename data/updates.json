@@ -1,0 +1,64 @@
+{
+  "updates": [
+    {
+      "title": "New Floral Physics System",
+      "date": "December 15, 2024",
+      "description": "Major upgrade to petal movement mechanics for more natural floral arrangements and improved magnetic interactions.",
+      "changes": [
+        "Enhanced petal trajectory calculations",
+        "Improved wind effects on different flower types",
+        "More realistic floating physics",
+        "Better magnetic field resistance simulation",
+        "Optimized performance for smoother animations"
+      ]
+    },
+    {
+      "title": "Garden AI Improvements",
+      "date": "December 10, 2024",
+      "description": "Significant upgrades to garden generation algorithms for more creative and challenging floral designs.",
+      "changes": [
+        "New garden personalities with unique floral styles",
+        "Adaptive difficulty that responds to player patterns",
+        "Improved arrangement algorithms",
+        "Better space utilization and composition",
+        "Enhanced pollination and growth strategies"
+      ]
+    },
+    {
+      "title": "Floral Festival Update",
+      "date": "December 5, 2024",
+      "description": "Complete redesign of the festival system with new competition formats and progression tracking.",
+      "changes": [
+        "New festival formats (seasonal, thematic challenges)",
+        "Improved scoring system with artistic ratings",
+        "Better challenge scheduling and categories",
+        "Enhanced festival rewards and achievements",
+        "Player design statistics and history tracking"
+      ]
+    },
+    {
+      "title": "Gardening Tools Customization",
+      "date": "November 30, 2024",
+      "description": "New tool customization features allowing players to personalize their magnetic equipment and gardening style.",
+      "changes": [
+        "Custom magnetic field adjustment options",
+        "Personalized pollination preferences",
+        "Tool appearance customization",
+        "Performance tuning for different floral styles",
+        "Equipment energy management system"
+      ]
+    },
+    {
+      "title": "Performance Enhancements",
+      "date": "November 25, 2024",
+      "description": "Various performance improvements and bug fixes for smoother gardening across all devices.",
+      "changes": [
+        "Reduced loading times by 40%",
+        "Improved animation stability",
+        "Better memory management for large gardens",
+        "Fixed petal collision detection issues",
+        "Enhanced tablet device compatibility"
+      ]
+    }
+  ]
+}

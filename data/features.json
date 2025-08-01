@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "title": "Instant Bloom",
+      "description": "Quick and satisfying floral arrangements for all skill levels. Experience the joy of creating beautiful patterns in moments.",
+      "icon": "⚡"
+    },
+    {
+      "title": "Natural Physics",
+      "description": "Realistic petal movement and magnetic field dynamics. Every interaction feels organic with our advanced simulation.",
+      "icon": "🎯"
+    },
+    {
+      "title": "Dynamic Gardens",
+      "description": "AI-generated gardens with unique floral personalities. Each arrangement offers new creative possibilities and challenges.",
+      "icon": "🤖"
+    },
+    {
+      "title": "Multiple Gardens",
+      "description": "Create in different environments including meadows, zen gardens, and greenhouses. Each location affects petal behavior and magnetism.",
+      "icon": "🏟️"
+    },
+    {
+      "title": "Floral Tools",
+      "description": "Upgrade your magnetic tools and pollen collectors. Customize your equipment to create more intricate designs.",
+      "icon": "🌸"
+    },
+    {
+      "title": "Floral Festivals",
+      "description": "Participate in various blooming competitions and exhibitions. Grow your reputation as a master floral artist.",
+      "icon": "🏆"
+    }
+  ]
+}
