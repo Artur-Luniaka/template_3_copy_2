@@ -3,22 +3,22 @@
     {
       "name": "Starter Pollen Wand",
       "description": "Beginner-friendly tool with a wide magnetic field to attract nearby petals. Perfect for learning flower harmony.",
-      "attraction": "3/5",
-      "precision": "4/5",
+      "power": "3/5",
+      "control": "4/5",
       "speed": "2/5"
     },
     {
       "name": "Floral Resonator",
       "description": "Upgraded device that synchronizes with rare blossoms. Creates vibrant ripple effects for chain reactions.",
-      "attraction": "4/5",
-      "precision": "4/5",
+      "power": "4/5",
+      "control": "4/5",
       "speed": "3/5"
     },
     {
       "name": "Bloom Master 3000",
       "description": "Elite-grade magnetizer that manipulates petals with surgical precision. Unleashes dazzling floral symphonies!",
-      "attraction": "5/5",
-      "precision": "5/5",
+      "power": "5/5",
+      "control": "5/5",
       "speed": "5/5"
     }
   ]
